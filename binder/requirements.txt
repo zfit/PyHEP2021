@@ -1,0 +1,4 @@
+zfit> 0.7.0
+hepstats>= 0.5
+mplhep
+iminuit
