@@ -16,11 +16,6 @@ repos:
       - id: requirements-txt-fixer
       - id: trailing-whitespace
 
-  - repo: https://github.com/PyCQA/flake8
-    rev: 3.9.2
-    hooks:
-      - id: flake8
-
   - repo: https://github.com/pycqa/isort
     rev: 5.9.1
     hooks:
@@ -41,3 +36,12 @@ repos:
       - id: nbqa-isort
         additional_dependencies: [ isort==5.9.1 ]
         args: [ "--nbqa-mutate" ]
+
+  - repo: https://github.com/roy-ht/pre-commit-jupyter
+    rev: v1.2.1
+    hooks:
+      - id: jupyter-notebook-cleanup
+#        args:
+#           - --remove-kernel-metadata
+#          - --pin-patterns
+#          - "[pin];[donotremove]"

@@ -1,4 +1,6 @@
 hepstats>= 0.5
+hepunits
 iminuit
 mplhep
+particle
 zfit> 0.7.0
