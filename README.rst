@@ -2,7 +2,7 @@
 zfit and hepstats PyHEP 2021
 ================================
 
-The PyHEP talk about zfit and hepstatscovers two main topics:
+The PyHEP talk about `zfit <https://github.com/zfit/zfit#zfit-scalable-pythonic-fitting>`_ and `hepstats <https://github.com/scikit-hep/hepstats#hepstats-package-statistics-tools-and-utilities>`_ covers two main topics:
 
 - first, we will talk about the newest features: the generalisation of the minimizer API and how to use it independently of zfit.
 - then we will dive into zfit: from the basics to more advanced concepts including simultaneus fits, constraints and custom models.
