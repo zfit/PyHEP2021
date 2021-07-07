@@ -18,7 +18,7 @@ or they can be run in a binder instance
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/zenodo/10.5281/zenodo.5079735/
  
- (or, if that fails or doesn't yet has the newest updates)
+(or, if that fails or doesn't yet has the newest updates)
  
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/zfit/PyHEP2021/HEAD
