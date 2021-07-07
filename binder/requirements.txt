@@ -3,4 +3,4 @@ hepunits
 iminuit
 mplhep
 particle
-zfit> 0.7.0
+zfit>= 0.7.2
