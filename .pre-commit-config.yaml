@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: 38b88246ccc552bffaaf54259d064beeee434539  # frozen: v4.0.1
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -17,18 +17,18 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.9.2
+    rev: fd5ba70665a37ec301a1f714ed09336048b3be63  # frozen: 5.9.3
     hooks:
       - id: isort
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.21.2
+    rev: aaad686b5f7851dd1b269f87cb5832ed132f4631  # frozen: v2.24.0
     hooks:
       - id: pyupgrade
         args: [ "--py37-plus" ]
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 0.13.1
+    rev: 51ad7534c007f7330efea81df57b2d618f2c2345  # frozen: 1.1.0
     hooks:
       - id: nbqa-pyupgrade
         additional_dependencies: [ pyupgrade==2.19.4 ]
@@ -38,7 +38,7 @@ repos:
         args: [ "--nbqa-mutate" ]
 
   - repo: https://github.com/roy-ht/pre-commit-jupyter
-    rev: v1.2.1
+    rev: 551ab39ffcb92404c78593515520b05ec1dab9e3  # frozen: v1.2.1
     hooks:
       - id: jupyter-notebook-cleanup
 #        args:
