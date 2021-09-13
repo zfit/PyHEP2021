@@ -22,13 +22,13 @@ repos:
       - id: isort
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: aaad686b5f7851dd1b269f87cb5832ed132f4631  # frozen: v2.24.0
+    rev: 486760aeedfeed700b8fa8b359ba91f77d540ec4  # frozen: v2.26.0
     hooks:
       - id: pyupgrade
         args: [ "--py37-plus" ]
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 51ad7534c007f7330efea81df57b2d618f2c2345  # frozen: 1.1.0
+    rev: e7fbd791e6ca56213997f47a22c5655ed375deb5  # frozen: 1.1.1
     hooks:
       - id: nbqa-pyupgrade
         additional_dependencies: [ pyupgrade==2.19.4 ]
