@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: 38b88246ccc552bffaaf54259d064beeee434539  # frozen: v4.0.1
+    rev: 3298ddab3c13dd77d6ce1fc0baf97691430d84b0  # frozen: v4.3.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -17,18 +17,18 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/pycqa/isort
-    rev: fd5ba70665a37ec301a1f714ed09336048b3be63  # frozen: 5.9.3
+    rev: c5e8fa75dda5f764d20f66a215d71c21cfa198e1  # frozen: 5.10.1
     hooks:
       - id: isort
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: aaad686b5f7851dd1b269f87cb5832ed132f4631  # frozen: v2.24.0
+    rev: a78007c1e9de96e71d5fb3e720c2b9fae8ed8abf  # frozen: v2.37.3
     hooks:
       - id: pyupgrade
         args: [ "--py37-plus" ]
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 51ad7534c007f7330efea81df57b2d618f2c2345  # frozen: 1.1.0
+    rev: 8c573c5230ca8b681bee722cccd3664b6757ed8e  # frozen: 1.4.0
     hooks:
       - id: nbqa-pyupgrade
         additional_dependencies: [ pyupgrade==2.19.4 ]
